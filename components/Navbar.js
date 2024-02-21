@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import Link from "next/link"
 import Image from "next/image"
@@ -13,7 +12,6 @@ export default function Navbar() {
         </div>
             <Link href={"/"}>Home</Link>
             <Link href={"/about"}>About</Link>
-            {/* <Link href={"/product"}>Product</Link> */}
             <Link href={"/products"}>Product</Link>
     </nav>
   )

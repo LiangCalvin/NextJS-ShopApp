@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 body {
   background: rgb(247, 244, 244);
   color: rgb(8, 6, 20);
+  font-family: 'Roboto', sans-serif;
+
 }
 
 nav {

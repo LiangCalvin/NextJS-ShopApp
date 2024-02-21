@@ -1,14 +1,15 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
-
-
-
+import Head from "next/head";
 
 
 export default function Home() {
   return (
    <>
+    <Head>
+          <title>SirapopNEXT</title>
+      </Head>
         <h1 className={styles.title}>
           Welcome to Sirapop Shop
         </h1>
